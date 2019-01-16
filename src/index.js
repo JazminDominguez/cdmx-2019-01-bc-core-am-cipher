@@ -24,7 +24,9 @@ document.getElementById("codificar").addEventListener("click", () => {
   const mssgValue= mssg.value;
   const offsetF = offset.value;
   const mssgMayusculas= mssgValue.toUpperCase();
+  document.getElementById("mensajeUsuario").innerHTML = 'tu mensaje es ' + mssgMayusculas;
   //volver el msj mayuscula
+
 
  console.log (offsetF, mssgMayusculas)});    
 
