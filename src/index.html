@@ -8,23 +8,32 @@
   <body>
     <div id="root">
       <h1 id= "titulo">Safe message</h1>
-      <!--Pantalla principal-->
+      <!--Pantalla principal
       <div id="pantallaPrincipal">
-      <button id="codificar" class="pushbutton" onclick="code()">Codificar</button>
-      <button id="decodificar" class="pushbutton" onclick="code()">Decodificar</button>
+      <button id="pantallaCodificar" class="pushbutton" onclick="pantallaCode();">Codificar</button>
+      <button id="pantallaDecodificar" class="pushbutton" onclick="pantallaDecode();">Decodificar</button>
       </div>
-      <!--pantalla de codificacion-->
+      <!--pantalla de codificacion
       <div class="pantallasOcultas">
         <form name="c1" id="cuadroCode">
-          <input type="text" name="mensajeCodificar" id="mensajeCodificar">
-        </form>
+            <input type="text" name="offset" id="offset" placeholder="ingresa tu offset">
+            <input type="text" name="mensaje" id="mensaje" placeholder="ingresa tu mensaje">
+        </form>}
+        <button id="codificar" class="pushbutton" onclick="mayus()" value="mayus()">Codificar</button>
       </div>
-       <!--pantalla de decodificacion-->
+       <!--pantalla de decodificacion
        <div class="pantallasOcultas">
-        <form name="c2" id="cuadroEncode">
-          <input type="text" name="mensajeDecodificar" id="mensajeDecodificar">
+        <form name="c2" id="cuadroEncode"> 
+            <input type="text" name="offset" id="offset" placeholder="ingresa tu offset">
+          <input type="text" name="mensaje" id="mensaje" placeholder="ingresa tu mensaje">
         </form>
-      </div>
+        <button id="decodificar" class="pushbutton" onclick="pantallaDecode()">Decodificar</button>
+      </div> -->
+      <h2>ingresa el mensaje que deseas cifrar sin espacios.</h2>
+      <input type="text" name="mensaje1" id="mensaje1" placeholder="ingresa tu mensaje">
+      <input type="text" name="offsetChoice" id="offsetChoice" placeholder="ingresa número para código">
+      <button id="codificar" class="pushbutton" value="codificar">Codificar</button>
+      <div id= "mensajeUsuario"></div>
     </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
