@@ -2,3 +2,14 @@
     display: none;
 }
 */
+
+body {
+    background-image: url(https://www.elegantthemes.com/blog/wp-content/uploads/2013/09/bg-12-full.jpg);   
+    background-size: cover;}
+
+.cuadro{
+    vertical-align: middle;
+height: 50px;
+}
+
+
