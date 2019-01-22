@@ -6,10 +6,22 @@
 body {
     background-image: url(https://www.elegantthemes.com/blog/wp-content/uploads/2013/09/bg-12-full.jpg);   
     background-size: cover;}
-
+#titulo{
+    font-family: 'Major Mono Display', monospace;
+    color: whitesmoke;
+    font-size: 30px;
+    text-align: center;}            
+h2{
+        font-family: 'Nanum Gothic', sans-serif;    
+        color: whitesmoke;
+        font-size: 20px;
+        text-align: left;}
 .cuadro{
-    vertical-align: middle;
-height: 50px;
-}
-
-
+        vertical-align: middle;
+        display: inline-block;
+        height: 80px; }
+#pagCode{
+        display: none;}
+#mostrarInstrucciones{
+        display: none;}
+    

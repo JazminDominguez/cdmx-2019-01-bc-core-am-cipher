@@ -1,4 +1,12 @@
 //  --Eventos del DOM-- CIFRAR
+//muestra las instrucciones
+document.getElementById("instrucciones").addEventListener("click", () => {
+  document.getElementById("mostrarInstrucciones").style.display="block";})
+//avanza a la pantalla donde se hace la codificacion
+document.getElementById("continuar").addEventListener("click", () => {
+  document.getElementById("Menu").style.display="none";
+  document.getElementById("pagCode").style.display="block";})
+
 //guardar el mensaje desde el input
 const mssg = document.getElementById('mensaje1');
 // toma el dato obtenido del offset

@@ -7,17 +7,32 @@
   </head>
   <body>
     <div id="root">
-      <h1 id= "titulo">Safe message</h1>
-      <h2>ingresa el mensaje que deseas cifrar sin espacios.</h2>
-      <input type="text" name="mensaje1" id="mensaje1"  class="cuadro" placeholder="ingresa tu mensaje">
-      <input type="text" name="offsetChoice" id="offsetChoice" placeholder="ingresa número para código">
-      <button id="code" class="pushbutton" value="code">Cifrar</button>
-      <div id= "mensajeUsuario"></div>
+      <!---pagina Inicial-->
+        <div id="Menu">
+            <style>
+                @import url('https://fonts.googleapis.com/css?family=Staatliches');
+                    @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic|Staatliches');
+                    @import url('https://fonts.googleapis.com/css?family=Major+Mono+Display|Nanum+Gothic|Staatliches');
+                    </style>
+        <h1 id= "titulo">Safe message</h1>
+        <button id="instrucciones" class="pushbutton" >Instrucciones</button>
+            <div id="mostrarInstrucciones">
+              ¿Cómo funciona?
+            </div>
+        <button id="continuar" class="pushbutton" >Continuar</button>
+        </div>
+      <!--Pagina de codificación-->
+      <div id="pagCode">
+          <h2>Ingresa el mensaje que deseas cifrar sin espacios.</h2>
+        <input type="text" name="mensaje1" id="mensaje1"  class="cuadro" placeholder="ingresa tu mensaje">
+        <input type="text" name="offsetChoice" id="offsetChoice" class="eleccion" placeholder="ingresa número para código" size="5">
+        <button id="code" class="pushbutton" value="code">Cifrar</button>
+    
       <!--funcion decode-->
-      <input type="text" name="mensaje2" id="mensaje2" class="cuadro" placeholder="ingresa tu mensaje">
-      <input type="text" name="offsetChoice2" id="offsetChoice2" placeholder="ingresa número para código">
-      <button id="decode" class="pushbutton" value="decode">Descifrar </button>
-      <div id= "mensajeUsuario2"></div>
+        <input type="text" name="mensaje2" id="mensaje2" class="cuadro" placeholder="ingresa tu mensaje">
+        <input type="text" name="offsetChoice2" id="offsetChoice2" class="eleccion" placeholder="ingresa número para código" size="5">
+        <button id="decode" class="pushbutton" value="decode">Descifrar </button>
+        </div>
     </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
