@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  
   </head>
   <body>
     <div id="root">
@@ -14,8 +16,13 @@
                     @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic|Staatliches');
                     @import url('https://fonts.googleapis.com/css?family=Major+Mono+Display|Nanum+Gothic|Staatliches');
                     </style>
+                    
         <h1 id= "titulo">Safe message</h1>
+        <i class="fas fa-unlock-alt"></i>
+        <div id="presentación"> SafeMessage te ofrece una alternativa de escritura segura en tus mensajes en cualquier contexto.</div>
+       
         <button id="instrucciones" class="pushbutton" >Instrucciones</button>
+       
             <div id="mostrarInstrucciones">
               ¿Cómo funciona?
             </div>
@@ -23,16 +30,21 @@
         </div>
       <!--Pagina de codificación-->
       <div id="pagCode">
+        
           <h2>Ingresa el mensaje que deseas cifrar sin espacios.</h2>
-        <input type="text" name="mensaje1" id="mensaje1"  class="cuadro" placeholder="ingresa tu mensaje">
-        <input type="text" name="offsetChoice" id="offsetChoice" class="eleccion" placeholder="ingresa número para código" size="5">
-        <button id="code" class="pushbutton" value="code">Cifrar</button>
+          <div id="offsets">
+          <input type="text" name="offsetChoice" id="offsetChoice" class="eleccion" placeholder="ingresa número para código" size="5">
+          <input type="text" name="offsetChoice2" id="offsetChoice2" class="eleccion" placeholder="ingresa número para código" size="5">
+          </div>
+        <button id="code" class="pushbutton" value="code">Cifrar&#10509</button>
     
       <!--funcion decode-->
+        <div id="cuadrosTexto">
+            <input type="text" name="mensaje1" id="mensaje1"  class="cuadro" placeholder="ingresa tu mensaje">
         <input type="text" name="mensaje2" id="mensaje2" class="cuadro" placeholder="ingresa tu mensaje">
-        <input type="text" name="offsetChoice2" id="offsetChoice2" class="eleccion" placeholder="ingresa número para código" size="5">
-        <button id="decode" class="pushbutton" value="decode">Descifrar </button>
-        </div>
+        <button id="decode" class="pushbutton" value="decode">&#10510Descifrar" </button>
+      </div>  
+      </div>
     </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>

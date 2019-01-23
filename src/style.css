@@ -4,24 +4,75 @@
 */
 
 body {
-    background-image: url(https://www.elegantthemes.com/blog/wp-content/uploads/2013/09/bg-12-full.jpg);   
-    background-size: cover;}
+       background-image: url(https://vignette.wikia.nocookie.net/imagenes7216/images/b/bc/Fondo_Azul_Abstracto.jpg/revision/latest?cb=20170612010654&format=original&path-prefix=es);        
+}
 #titulo{
     font-family: 'Major Mono Display', monospace;
     color: whitesmoke;
-    font-size: 30px;
-    text-align: center;}            
+    font-size: 40px;
+    text-align: center; 
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 5em;
+    padding-right:0px;
+    border-bottom-style: double;
+    border-bottom-color: aliceblue;
+    border-bottom-width: 5px;
+    vertical-align: middle;}   
+i{
+        font-size: 30px;
+        color: whitesmoke;
+        padding: 0px,0px;
+}
+    #titulo,i{
+        display: inline-block;}  
+
+#presentación{
+        font-family: 'Nanum Gothic', sans-serif;    
+        color: whitesmoke;
+        font-style: oblique;
+        font-size: 17px;
+        text-align: center;
+        padding-top: 20px; }
+
+        
+             
 h2{
         font-family: 'Nanum Gothic', sans-serif;    
         color: whitesmoke;
         font-size: 20px;
         text-align: left;}
+
 .cuadro{
         vertical-align: middle;
         display: inline-block;
-        height: 80px; }
+        height: 50px; }
 #pagCode{
         display: none;}
 #mostrarInstrucciones{
         display: none;}
+.pushbutton{
+   border-radius: 55px 55px 55px 55px;
+   -moz-border-radius: 55px 55px 55px 55px;
+   -webkit-border-radius: 55px 55px 55px 55px;
+   border: 2px dashed #ffffff;   
+   background: none;
+   font-family: 'Nanum Gothic', sans-serif;    
+   color: whitesmoke;
+   float:none;
+   font-size: 15px;}
+
+   button:hover {
+	background: #ffffff;
+	border: 2px solid turquoise;
+	color: rgb(44, 189, 233);
+        cursor: pointer;}
+        
+   #offsets{
+           padding: 20px,20px,20px}
+   }
+
+
+
+    
     
