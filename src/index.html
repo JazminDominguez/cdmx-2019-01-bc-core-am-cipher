@@ -30,20 +30,31 @@
         </div>
       <!--Pagina de codificación-->
       <div id="pagCode">
+        <h1 id= "titulo">Safe message</h1> <i class="fas fa-unlock-alt"></i>
+        <input type="text" name="offsetChoice2" id="offsetChoice2" class="eleccion2" placeholder="N° clave" size="5">
+        <div id="posicion">
+            <h2>Ingresa el mensaje que deseas cifrar sin espacios.</h2>
+           <div id="offsets">
+           <input type="text" name="offsetChoice" id="offsetChoice" class="eleccion" placeholder="N° clave" size="5">
+            
+            </div>
         
-          <h2>Ingresa el mensaje que deseas cifrar sin espacios.</h2>
-          <div id="offsets">
-          <input type="text" name="offsetChoice" id="offsetChoice" class="eleccion" placeholder="ingresa número para código" size="5">
-          <input type="text" name="offsetChoice2" id="offsetChoice2" class="eleccion" placeholder="ingresa número para código" size="5">
-          </div>
-        <button id="code" class="pushbutton" value="code">Cifrar&#10509</button>
     
       <!--funcion decode-->
         <div id="cuadrosTexto">
             <input type="text" name="mensaje1" id="mensaje1"  class="cuadro" placeholder="ingresa tu mensaje">
-        <input type="text" name="mensaje2" id="mensaje2" class="cuadro" placeholder="ingresa tu mensaje">
-        <button id="decode" class="pushbutton" value="decode">&#10510Descifrar" </button>
+            <button id="code" class="pushbutton" value="code">Cifrar&#10509</button>
+            
+            <div id="posicionDecode">
+              <button id="decode" class="pushbutton" value="decode">&#10510Descifrar" </button>
+              <input type="text" name="mensaje2" id="mensaje2" class="cuadro" placeholder="ingresa tu mensaje">
+             
+            </div>       
+            
+          </div>
+          
       </div>  
+      
       </div>
     </div>
     <script src="cipher.js"></script>

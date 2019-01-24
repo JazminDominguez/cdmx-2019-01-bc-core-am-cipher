@@ -4,7 +4,8 @@
 */
 
 body {
-       background-image: url(https://vignette.wikia.nocookie.net/imagenes7216/images/b/bc/Fondo_Azul_Abstracto.jpg/revision/latest?cb=20170612010654&format=original&path-prefix=es);        
+       background-image: url(https://vignette.wikia.nocookie.net/imagenes7216/images/b/bc/Fondo_Azul_Abstracto.jpg/revision/latest?cb=20170612010654&format=original&path-prefix=es);
+       position: absolute;        
 }
 #titulo{
     font-family: 'Major Mono Display', monospace;
@@ -12,7 +13,7 @@ body {
     font-size: 40px;
     text-align: center; 
     padding-top: 10px;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
     padding-left: 5em;
     padding-right:0px;
     border-bottom-style: double;
@@ -40,13 +41,16 @@ i{
 h2{
         font-family: 'Nanum Gothic', sans-serif;    
         color: whitesmoke;
-        font-size: 20px;
-        text-align: left;}
+        font-size: 17px;
+        text-align: left;
+        padding-bottom: 15px;
+        padding-top: 0px;}
 
 .cuadro{
         vertical-align: middle;
         display: inline-block;
-        height: 50px; }
+        height: 50px;
+        width: 300px; }
 #pagCode{
         display: none;}
 #mostrarInstrucciones{
@@ -68,9 +72,31 @@ h2{
 	color: rgb(44, 189, 233);
         cursor: pointer;}
         
+#posicion{
+        padding-left: 280px;
+  justify-content: center;
+}
    #offsets{
-           padding: 20px,20px,20px}
-   }
+           padding: 20px,20px,20px;
+                }
+#offsetChoice{
+ object-position: left;
+ padding-right: 3em;
+ 
+ 
+}
+#offsetChoice2{
+        position: relative;        
+        padding-left: 3em;
+        left: 370px;
+        top:194px; 
+        width:80px;}
+        
+
+#posicionDecode{
+        padding-top: 0px;
+        padding-left: 400px;
+        position: relative;}
 
 
 
