@@ -34,7 +34,18 @@ i{
         font-style: oblique;
         font-size: 17px;
         text-align: center;
-        padding-top: 20px; }
+        padding-top: 20px;
+        padding-bottom: 20px }
+#mostrarInstrucciones{
+        background-image: url(https://66.media.tumblr.com/ff0144bbe37b0956cf870683960946bb/tumblr_pltkzrbd6l1vevohko1_1280.png);
+       
+        display: none;
+        width: 100%;
+        padding-bottom: 75%;
+        padding-right: 0px;
+        margin-left: 20px;
+        background-repeat: no-repeat;
+}
 
         
              
@@ -53,8 +64,8 @@ h2{
         width: 300px; }
 #pagCode{
         display: none;}
-#mostrarInstrucciones{
-        display: none;}
+
+
 .pushbutton{
    border-radius: 55px 55px 55px 55px;
    -moz-border-radius: 55px 55px 55px 55px;
@@ -64,7 +75,9 @@ h2{
    font-family: 'Nanum Gothic', sans-serif;    
    color: whitesmoke;
    float:none;
-   font-size: 15px;}
+   font-size: 15px;
+   
+}
 
    button:hover {
 	background: #ffffff;
@@ -97,6 +110,19 @@ h2{
         padding-top: 0px;
         padding-left: 400px;
         position: relative;}
+
+#regreso{
+        width: 90px;
+        height: 90px;
+        background-color: rgb(15, 206, 190);
+        border-radius: 100px;
+        text-align: center;
+        font-size: 17px;
+        font-family: 'Poppins', sans-serif;
+        border: 0px;
+        color: rgb(5, 90, 146);
+        margin-left: 800px;
+        margin-top: 35px;}
 
 
 

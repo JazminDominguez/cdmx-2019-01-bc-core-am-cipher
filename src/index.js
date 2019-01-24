@@ -4,7 +4,7 @@ document.getElementById("instrucciones").addEventListener("click", () => {
   document.getElementById("mostrarInstrucciones").style.display="block";})
 //avanza a la pantalla donde se hace la codificacion
 document.getElementById("continuar").addEventListener("click", () => {
-  document.getElementById("Menu").style.display="none";
+  document.getElementById("menu").style.display="none";
   document.getElementById("pagCode").style.display="block";})
 
 //guardar el mensaje desde el input
@@ -34,4 +34,7 @@ document.getElementById("decode").addEventListener("click", () => {
   mssg.value = mensajeDescifrado;
  })   
 
-
+ document.getElementById("regreso").addEventListener("click", () => {
+  document.getElementById("pagCode").style.display="none";
+  document.getElementById("menu").style.display="block";
+  document.getElementById("mostrarInstrucciones").style.display="none";})
