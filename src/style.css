@@ -20,6 +20,21 @@ body {
     border-bottom-color: aliceblue;
     border-bottom-width: 5px;
     vertical-align: middle;}   
+    
+#titulo1{
+        font-family: 'Major Mono Display', monospace;
+        color: whitesmoke;
+        font-size: 40px;
+        text-align: center; 
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 5em;
+        padding-right:0px;
+        border-bottom-style: double;
+        border-bottom-color: aliceblue;
+        border-bottom-width: 5px;
+        vertical-align: middle;
+        display: inline-block}   
 i{
         font-size: 30px;
         color: whitesmoke;
@@ -42,7 +57,7 @@ i{
         display: none;
         width: 100%;
         padding-bottom: 75%;
-        padding-right: 0px;
+        padding-right: 100%;
         margin-left: 20px;
         background-repeat: no-repeat;
 }
